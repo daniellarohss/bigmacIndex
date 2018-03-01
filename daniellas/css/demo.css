@@ -1,0 +1,432 @@
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 25px;
+    line-height: 31px;
+    color: rgb(73, 72, 100);
+}
+
+svg {
+    border-bottom-color:white;
+    border-width:0px;
+    border-style:solid;
+     margin-left:10%;
+    
+}
+
+#legendboxar{
+    width:100%;
+    padding-left:40%;
+    
+}
+
+#legendboxar h5{
+    margin-left:10%;
+}
+
+#legendboxar p{
+    margin-left:-10px;
+}
+
+#magicBurger{
+        width:100%;
+        height:800px;
+        background-color:#dd1021;
+        
+    }
+#box2{
+        margin-top:0px;
+        width:100%;
+        height:300px;
+        background-color:black;
+    }
+#box3{
+       
+       padding-top:100px;
+        width:100%;
+        height:700px;
+        background-color:black;
+        padding-left:30%;
+    }
+#box34{
+      padding-top:100px;
+        width:100%;
+        height:800px;
+        background-color:#dd1021;
+    }    
+   
+/*Map Page*/ 
+#box4{
+       
+        padding-top:25px;
+        width:100%;
+        height:1200px;
+        background-color:black;
+    }
+    
+#box4 h4{
+    text-align:center;
+  
+}
+
+#box5{
+    padding-top:25px;
+        width:100%;
+        height:900px;
+        background-color:#dd1021;
+      
+    }
+    
+#box6{
+       
+       padding-top:25px;
+        width:100%;
+        height:700px;
+        background-color:black;
+    }
+    
+
+
+#divider{
+        width:100%;
+        height:2px;
+        background-color:#dd1021;
+    }  
+    
+#infobox1{
+
+    width:40%;
+    height:200px;
+    background:black;
+    margin-top:200px;
+    float:left;
+    
+}
+#infobox2{
+    width:40%;
+    height:250px;
+    margin-top:200px;
+    background:black;
+    margin-left:5%;
+    float:left;
+}
+#infobox3{
+    width:40%;
+    height:200px;
+    float:left;
+}
+#infoRed{
+    width:1%;
+    height:160px;
+    background:red;
+    margin-top:235px;
+    margin-left:5%;
+    margin-right:1%;
+    float:left;
+}
+#infoRed2{
+    width:1%;
+    height:160px;
+    background:red;
+    margin-top:240px;
+    margin-left:1%;
+    margin-right:1%;
+    float:left;
+}
+
+#friesText{
+    width:50%;
+    margin-left:25%;
+    margin-top:-30px;
+    
+}
+#friesText h4{
+    text-align:center;
+}
+
+
+#left2{
+    background-color:black;
+    width:40%;
+    height:600px;
+    float:left;
+}
+
+
+#right{
+    background-color:black;
+    width:20%;
+    height:600px;
+    float:left;
+}
+
+#left4{
+    background-color:black;
+    width:50%;
+    height:600px;
+    margin-left:25%;
+   
+}
+
+
+#right4{
+    background-color:black;
+    width:100%;
+    height:600px;
+    margin-left:0%;
+    margin-top:-500px;
+   
+}
+
+#svartbox{
+    position:absolute;
+    width:200px;
+    height:100px;
+    /*border-style:solid;
+    border-width:1px;
+    border-bottom-color:white;
+    */
+    margin-top:100px;
+    margin-left:70%;
+    background-color:black;
+}
+
+::selection {
+    background: #ffffff;
+    color: #ffc300;
+}
+::-moz-selection {
+    background: #ffffff;
+    color: #fff;
+}
+
+html.touch div#content-wrapper {
+    min-width: 700px;
+}
+.scrollContainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-width: 650px;
+    width: 100%
+}
+.scrollContent {
+    position: relative;
+    /*height: 100%;*/
+}
+section {
+    height: 100vh;
+    position: relative;
+    z-index: 8888;
+}
+
+section#start {
+    height:100vh;
+
+}
+h1 {
+    font-style: normal;
+    font-size: 80px;
+    color: #ffc300;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:center;
+}
+h1 span {
+    display: inline-block;
+    
+}
+h2, h3 {
+    font-style: normal;
+    color: #ffc300;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align:center;
+}
+h3 {
+    font-size: 30px;
+    margin-top: 80px;
+    
+}
+
+h4 {
+    font-style: normal;
+    color: #ffc300;
+    font-size: 30px;
+    font-family: Helvetica neue;
+    margin-bottom: 15px;
+}
+
+#box34 h4{
+    text-align:center;
+    margin-top:-50px;
+  
+}
+
+#box34 h5{
+      margin-left:15%;
+}
+
+#sorter{
+    width:40%;
+    margin-left:40%;
+}
+
+.radio{
+    
+    margin-left:-50%;
+}
+
+
+label {
+    margin-left:20px;
+}
+
+.labels{
+    float:left;
+}
+
+
+.groupMembers{
+    text-align:center;
+}
+
+h5{
+    font-style: normal;
+    color: #ffc300;
+    font-size: 15px;
+    font-family: Helvetica neue;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-bottom:-10px;
+}
+
+h6{
+    font-style: normal;
+    color: #ffc300;
+    font-size: 10px;
+    font-family: Helvetica neue;
+    margin-left:10px;
+    margin-top:-10px;
+    
+}
+
+
+
+.spark {
+    position: absolute;
+}
+.spark.s0 {
+    background-image: url("../img/demo_spark1.png");
+    width: 4px;
+    height: 3px;
+}
+.spark.s1 {
+    background-image: url("../img/demo_spark2.png");
+    width: 6px;
+    height: 6px;
+}
+.spark.s2 {
+    background-image: url("../img/demo_spark3.png");
+    width: 8px;
+    height: 8px;
+}
+.spark.s3 {
+    background-image: url("../img/demo_spark4.png");
+    width: 11px;
+    height: 11px;
+}
+.spark.s4 {
+    background-image: url("../img/demo_spark5.png");
+    width: 13px;
+    height: 13px;
+}
+.spark.s5 {
+    background-image: url("../img/demo_spark6.png");
+    width: 17px;
+    height: 17px;
+}
+.wand {
+    position: absolute;
+}
+.sparkpoint {
+    position: absolute;
+}
+
+/*START*/
+
+
+#intro {
+    display: block;
+    width: 400px;
+    height: 400px;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -60%);
+    -moz-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+    position: absolute;
+}
+#intro h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 135px;
+    margin: 0;
+}
+#intro h1 span {
+    position: relative;
+}
+#intro .tophat {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    margin-left: -144px;
+    margin-bottom: 50px;
+}
+#intro .sparkpoint {
+    top: 60px;
+    left: 380px;
+}
+
+#parallax {
+    margin-bottom: 250px;
+    position: relative;
+    overflow: hidden;
+}
+#parallax h3 {
+    font-size: 80px;
+    text-align: center;
+    margin: -40px 0 0 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    line-height: 80px;
+}
+#parallax #parallaxbg {
+    position: absolute;
+    height: 300px;
+    top: 50%;
+    width: 100%;
+    margin-top: -150px;
+    background-image: url("../img/demo_parallax_bg.png");
+}
+#parallaxbg .top {
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url("../img/demo_parallax_shadow_top.png");
+}
+#parallaxbg .bottom {
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: url("../img/demo_parallax_shadow_bottom.png");
+}
+
+
+
+
+
+
